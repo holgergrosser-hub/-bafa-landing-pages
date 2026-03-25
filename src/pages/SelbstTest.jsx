@@ -37,7 +37,7 @@ export default function SelbstTest() {
               Kostenlos, unverbindlich und sofort Ergebnis.
             </p>
             <div className="hero-actions">
-              <a href="#selbsttest" className="btn btn-primary btn-large btn-arrow">Jetzt Selbsttest starten</a>
+              <a href="#selbsttest" className="btn btn-primary btn-large btn-arrow">Jetzt Selbsttest starten →</a>
               <a href="https://qm-guru.de/zulassung-bafa-berater/" className="btn btn-secondary btn-large">Mehr erfahren</a>
             </div>
             <div className="trust-bar">
@@ -60,7 +60,7 @@ export default function SelbstTest() {
                   </div>
                 ))}
               </div>
-              <a href="#selbsttest" className="btn btn-primary" style={{width:'100%',justifyContent:'center'}}>Test starten →</a>
+              <a href="#selbsttest" className="btn btn-primary" style={{width:'100%',justifyContent:'center'}}>Jetzt Selbsttest starten →</a>
             </div>
           </div>
         </div>

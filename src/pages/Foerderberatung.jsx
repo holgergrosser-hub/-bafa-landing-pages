@@ -280,7 +280,7 @@ export default function Foerderberatung() {
         <h2>Starten Sie jetzt mit BAFA-geförderter Beratung</h2>
         <p>Prüfen Sie in 2 Minuten, ob Sie die Voraussetzungen erfüllen – und erschließen Sie ein neues Umsatzpotenzial.</p>
         <div style={{display:'flex',gap:'1rem',justifyContent:'center',flexWrap:'wrap',position:'relative'}}>
-          <a href="/" className="btn btn-primary btn-arrow">Selbsttest starten</a>
+            <a href="/" className="btn btn-primary btn-arrow">Jetzt Selbsttest starten →</a>
           <a href="https://qm-guru-angebote.netlify.app/" className="btn btn-secondary" style={{background:'transparent',color:'var(--white)',borderColor:'rgba(255,255,255,0.3)'}}>Direkt Angebot anfordern</a>
         </div>
       </section>
