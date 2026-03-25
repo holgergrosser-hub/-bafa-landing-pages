@@ -25,8 +25,7 @@ export default function QMSystem() {
               BAFA-konform und in 2-3 Wochen fertig.
             </p>
             <div className="hero-actions">
-              <a href="https://qm-guru-angebote.netlify.app/" className="btn btn-primary btn-large btn-arrow">Angebot anfordern</a>
-              <a href="/" className="btn btn-secondary btn-large">Erst Selbsttest machen</a>
+              <a href="https://qm-guru-angebote.netlify.app/" className="btn btn-primary btn-large btn-arrow">Angebot anfordern (Antwort in 5 min)</a>
             </div>
             <div className="trust-bar">
               <div className="trust-item"><span className="icon">✓</span> Festpreis 1.500€</div>
