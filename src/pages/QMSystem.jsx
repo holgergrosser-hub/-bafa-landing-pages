@@ -4,7 +4,6 @@ import FAQ from '../components/FAQ'
 const faqItems = [
   { q: 'Was genau ist ein QM-System für Berater?', a: 'Ein dokumentiertes Qualitätsmanagementsystem beschreibt Ihre Beratungsprozesse, Qualitätsstandards und Arbeitsabläufe. Die BAFA verlangt dies als Nachweis Ihrer professionellen Arbeitsweise. Es muss kein kompliziertes ISO-System sein – unser pragmatischer Ansatz reicht völlig aus.' },
   { q: 'Wie viel Aufwand habe ich als Kunde?', a: 'Minimal. Sie liefern Ihren Lebenslauf, Referenzprojekte und Informationen zu Ihrer Beratungstätigkeit. Den Rest machen wir. Zeitaufwand für Sie: ca. 2-3 Stunden insgesamt.' },
-  { q: 'Was unterscheidet Sie von TÜV oder DEKRA?', a: 'Wir erstellen ein pragmatisches, BAFA-konformes QM-System – ohne bürokratischen Overhead. Festpreis 1.500€ statt 4.000-6.000€ bei TÜV/DEKRA. Fertig in 2-3 Wochen statt 3-6 Monaten. Und Sie zahlen erst nach erfolgreicher BAFA-Zulassung.' },
   { q: 'Muss das QM-System ISO 9001 zertifiziert sein?', a: 'Nein! Die BAFA verlangt ein dokumentiertes QM-System, aber keine ISO 9001 Zertifizierung. Unser System erfüllt alle BAFA-Anforderungen ohne den Aufwand und die Kosten einer formalen Zertifizierung.' },
   { q: 'Wie lange ist das QM-System gültig?', a: 'Die BAFA fordert eine Aktualisierung alle 2 Jahre. Der Aufwand dafür ist minimal (1-2 Stunden). Gerne unterstützen wir Sie auch bei der Aktualisierung.' },
   { q: 'Kann ich das QM-System auch für andere Zwecke nutzen?', a: 'Ja! Die QM-Dokumentation gehört Ihnen und kann dauerhaft für Ihr Unternehmen verwendet werden – auch über die BAFA-Zulassung hinaus, z.B. für Ausschreibungen oder Kundenpräsentationen.' },
@@ -23,8 +22,7 @@ export default function QMSystem() {
             </div>
             <h1>QM-System für die <em>BAFA-Zulassung</em></h1>
             <p className="hero-sub">
-              <a href="/" className="btn btn-secondary btn-large">Erst Selbsttest machen</a>
-              BAFA-konform und in 2-3 Wochen fertig. 70% günstiger als TÜV/DEKRA.
+              BAFA-konform und in 2-3 Wochen fertig.
             </p>
             <div className="hero-actions">
               <a href="https://qm-guru-angebote.netlify.app/" className="btn btn-primary btn-large btn-arrow">Angebot anfordern</a>
@@ -32,8 +30,8 @@ export default function QMSystem() {
             </div>
             <div className="trust-bar">
               <div className="trust-item"><span className="icon">✓</span> Festpreis 1.500€</div>
-              <div className="trust-item"><span className="icon">✓</span> Zahlung nach Erfolg</div>
-              <div className="trust-item"><span className="icon">✓</span> Erstes Projekt inklusive</div>
+              <div className="trust-item"><span className="icon">✓</span> Zahlung nach BAFA-Zulassung</div>
+              <div className="trust-item"><span className="icon">✓</span> Ihr erstes Kundenprojekt begleiten wir</div>
             </div>
           </div>
           <div className="hero-right">
@@ -44,7 +42,6 @@ export default function QMSystem() {
               </div>
               {[
                 {icon:'⏱️',text:'Zeitersparnis: 2-3 Wochen statt Monate'},
-                {icon:'💰',text:'70% günstiger als TÜV/DEKRA'},
                 {icon:'🎯',text:'Garantiert BAFA-konform'},
                 {icon:'📝',text:'Individuell auf Sie zugeschnitten'},
                 {icon:'🤝',text:'Persönliche Betreuung inklusive'},
@@ -64,7 +61,6 @@ export default function QMSystem() {
         <div className="stats-inner">
           <div className="stat-item"><div className="stat-number">1.500€</div><div className="stat-label">Festpreis zzgl. MwSt.</div></div>
           <div className="stat-item"><div className="stat-number">2-3</div><div className="stat-label">Wochen bis fertig</div></div>
-          <div className="stat-item"><div className="stat-number">70%</div><div className="stat-label">günstiger als TÜV</div></div>
           <div className="stat-item"><div className="stat-number">100%</div><div className="stat-label">Erfolgsquote</div></div>
         </div>
       </div>
@@ -140,34 +136,6 @@ export default function QMSystem() {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* VERGLEICHSTABELLE */}
-      <section className="section section-alt">
-        <div className="section-inner">
-          <div className="section-header">
-            <div className="section-overline">Vergleich</div>
-            <h2 className="section-title">QM-Guru vs. Traditionelle Anbieter</h2>
-          </div>
-          <div style={{maxWidth:'800px',margin:'0 auto',overflowX:'auto'}}>
-            <table className="comparison-table">
-              <thead>
-                <tr><th>Kriterium</th><th>QM-Guru</th><th>TÜV / DEKRA</th></tr>
-              </thead>
-              <tbody>
-                <tr><td>Preis</td><td className="highlight">1.500€ Festpreis</td><td>4.000-6.000€</td></tr>
-                <tr><td>Dauer</td><td className="highlight">2-3 Wochen</td><td>3-6 Monate</td></tr>
-                <tr><td>Ihr Aufwand</td><td className="highlight">2-3 Stunden</td><td>20-40 Stunden</td></tr>
-                <tr><td>BAFA-konform</td><td className="highlight">✓ Garantiert</td><td>✓ Ja</td></tr>
-                <tr><td>Zahlung</td><td className="highlight">Erst nach Zulassung</td><td>Vorab</td></tr>
-                <tr><td>Ansatz</td><td className="highlight">Pragmatisch & schlank</td><td>Formal & umfangreich</td></tr>
-                <tr><td>Persönliche Betreuung</td><td className="highlight">✓ Durch QM-Experte</td><td>Wechselnde Ansprechpartner</td></tr>
-                <tr><td>Erfahrung</td><td className="highlight">30 Jahre, 1.000+ Projekte</td><td>Variiert</td></tr>
-                <tr><td>Erstes Projekt begleitet</td><td className="highlight">✓ Kostenlos inklusive</td><td>✗ Nicht enthalten</td></tr>
-              </tbody>
-            </table>
           </div>
         </div>
       </section>
