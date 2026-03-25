@@ -176,12 +176,12 @@ export default function QMSystem() {
             <p className="section-sub">Von der Anfrage bis zur BAFA-Zulassung in 6 einfachen Schritten.</p>
           </div>
           <div className="steps" style={{maxWidth:'700px',margin:'0 auto'}}>
-            <div className="step-item"><div className="step-number" /><div className="step-content"><h3>Kostenloses Erstgespräch</h3><p>Wir klären Ihre Beratungsschwerpunkte und prüfen die Voraussetzungen.</p></div></div>
+            <div className="step-item"><div className="step-number" /><div className="step-content"><h3>Selbsttest durchführen</h3><p>Prüfen Sie in 2 Minuten, ob Sie die Voraussetzungen für die BAFA-Zulassung erfüllen.</p></div></div>
+            <div className="step-item"><div className="step-number" /><div className="step-content"><h3>Angebot einholen</h3><p>Sie erhalten ein klares Angebot zum Festpreis – ohne versteckte Kosten.</p></div></div>
+            <div className="step-item"><div className="step-number" /><div className="step-content"><h3>Beauftragen</h3><p>Nach Ihrer Beauftragung starten wir direkt mit der Erstellung Ihrer QM-Dokumentation.</p></div></div>
             <div className="step-item"><div className="step-number" /><div className="step-content"><h3>Unterlagen zusenden</h3><p>Sie senden Lebenslauf, Referenzprojekte und Infos zu Ihrer Tätigkeit. (15 Min.)</p></div></div>
             <div className="step-item"><div className="step-number" /><div className="step-content"><h3>QM-Dokumentation wird erstellt</h3><p>Wir erstellen alles individuell auf Ihre Beratung zugeschnitten. (2-3 Wochen)</p></div></div>
-            <div className="step-item"><div className="step-number" /><div className="step-content"><h3>Abstimmung & Freigabe</h3><p>Sie prüfen die Dokumentation, wir nehmen ggf. Anpassungen vor.</p></div></div>
-            <div className="step-item"><div className="step-number" /><div className="step-content"><h3>BAFA-Einreichung</h3><p>Sie reichen die Unterlagen ein. Bei Rückfragen unterstützen wir Sie.</p></div></div>
-            <div className="step-item"><div className="step-number" /><div className="step-content"><h3>Zulassung erhalten & zahlen</h3><p>Nach Zulassung stellen wir die Rechnung. Erst Erfolg, dann Zahlung.</p></div></div>
+            <div className="step-item"><div className="step-number" /><div className="step-content"><h3>Abstimmung & BAFA-Einreichung</h3><p>Sie prüfen die Dokumentation, wir nehmen ggf. Anpassungen vor. Danach reichen Sie die Unterlagen bei der BAFA ein – bei Rückfragen unterstützen wir Sie.</p></div></div>
           </div>
         </div>
       </section>

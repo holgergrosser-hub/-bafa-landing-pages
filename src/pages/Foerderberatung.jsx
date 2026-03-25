@@ -93,7 +93,7 @@ export default function Foerderberatung() {
             </p>
             <div className="hero-actions">
               <a href="#rechner" className="btn btn-primary btn-large btn-arrow">Was bringt mir das?</a>
-              <a href="/" className="btn btn-secondary btn-large">Bin ich geeignet?</a>
+              <a href="/#selbsttest" className="btn btn-secondary btn-large">Bin ich geeignet?</a>
             </div>
             <div className="trust-bar">
               <div className="trust-item"><span className="icon">✓</span> Bis zu 80% Förderung</div>
