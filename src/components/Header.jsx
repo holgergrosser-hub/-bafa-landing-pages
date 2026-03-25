@@ -16,10 +16,10 @@ export default function Header() {
           <span /><span /><span />
         </button>
         <nav className={`header-nav ${open ? 'open' : ''}`}>
-          <Link to="/bafa-berater-test" className={isActive('/bafa-berater-test')} onClick={() => setOpen(false)}>Selbsttest</Link>
+          <Link to="/" className={isActive('/')} onClick={() => setOpen(false)}>Selbsttest</Link>
           <Link to="/qm-system-berater" className={isActive('/qm-system-berater')} onClick={() => setOpen(false)}>QM-System</Link>
           <Link to="/foerderberatung-bafa" className={isActive('/foerderberatung-bafa')} onClick={() => setOpen(false)}>Förderberatung</Link>
-          <a href="https://qm-guru.de/zulassung-bafa-berater/" onClick={() => setOpen(false)}>Hauptseite</a>
+          <a href="https://qm-guru.de/zulassung-bafa-berater/" target="_blank" rel="noreferrer" onClick={() => setOpen(false)}>Zulassung-Infos</a>
           <a href="https://qm-guru-angebote.netlify.app/" className="header-cta" onClick={() => setOpen(false)}>Angebot anfordern</a>
         </nav>
       </div>

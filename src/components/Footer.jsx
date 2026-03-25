@@ -13,7 +13,7 @@ export default function Footer() {
         <div className="footer-col">
           <h4>BAFA-Berater</h4>
           <a href="https://qm-guru.de/zulassung-bafa-berater/">BAFA-Zulassung</a>
-          <a href="/bafa-berater-test">Selbsttest</a>
+          <a href="/">Selbsttest</a>
           <a href="/qm-system-berater">QM-System</a>
           <a href="/foerderberatung-bafa">Förderberatung</a>
         </div>

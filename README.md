@@ -6,7 +6,7 @@
 
 | Pfad | Seite | Zweck |
 |------|-------|-------|
-| `/bafa-berater-test` | Selbsttest | Hauptlandingpage mit Typeform-Embed |
+| `/` | Selbsttest | Hauptlandingpage mit Typeform-Embed |
 | `/qm-system-berater` | QM-System | Upsell: QM-System erstellen lassen |
 | `/foerderberatung-bafa` | Förderberatung | ROI-Rechner + Förderinfos |
 

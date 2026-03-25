@@ -11,10 +11,10 @@ export default function App() {
     <>
       <Header />
       <Routes>
-        <Route path="/bafa-berater-test" element={<SelbstTest />} />
+        <Route path="/" element={<SelbstTest />} />
         <Route path="/qm-system-berater" element={<QMSystem />} />
         <Route path="/foerderberatung-bafa" element={<Foerderberatung />} />
-        <Route path="*" element={<Navigate to="/bafa-berater-test" replace />} />
+        <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
       <Footer />
     </>

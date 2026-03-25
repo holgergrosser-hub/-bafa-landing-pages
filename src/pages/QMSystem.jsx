@@ -23,12 +23,12 @@ export default function QMSystem() {
             </div>
             <h1>QM-System für die <em>BAFA-Zulassung</em></h1>
             <p className="hero-sub">
-              Wir erstellen Ihr komplettes Qualitätsmanagementsystem – pragmatisch, 
+              <a href="/" className="btn btn-secondary btn-large">Erst Selbsttest machen</a>
               BAFA-konform und in 2-3 Wochen fertig. 70% günstiger als TÜV/DEKRA.
             </p>
             <div className="hero-actions">
               <a href="https://qm-guru-angebote.netlify.app/" className="btn btn-primary btn-large btn-arrow">Angebot anfordern</a>
-              <a href="/bafa-berater-test" className="btn btn-secondary btn-large">Erst Selbsttest machen</a>
+              <a href="/" className="btn btn-secondary btn-large">Erst Selbsttest machen</a>
             </div>
             <div className="trust-bar">
               <div className="trust-item"><span className="icon">✓</span> Festpreis 1.500€</div>
