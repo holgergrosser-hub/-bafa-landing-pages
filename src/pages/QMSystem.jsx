@@ -30,7 +30,7 @@ export default function QMSystem() {
             </div>
             <div className="trust-bar">
               <div className="trust-item"><span className="icon">✓</span> Festpreis 1.500€</div>
-              <div className="trust-item"><span className="icon">✓</span> Zahlung nach BAFA-Zulassung</div>
+              <div className="trust-item"><span className="icon">✓</span> Zahlung nach bestätigter BAFA-Zulassung</div>
               <div className="trust-item"><span className="icon">✓</span> Ihr erstes Kundenprojekt begleiten wir</div>
             </div>
           </div>

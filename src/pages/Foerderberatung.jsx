@@ -89,7 +89,7 @@ export default function Foerderberatung() {
             <h1>Ihre Kunden fragen nach <em>Förderung</em>?</h1>
             <p className="hero-sub">
               Als BAFA-gelisteter Berater bieten Sie Ihren KMU-Kunden 
-              bis zu 80% Förderung auf Ihre Beratung. Mehr Aufträge, höhere Abschlussquote.
+              bis zu 80% Förderung auf Ihre Beratung (abhängig von Region). Mehr Aufträge, höhere Abschlussquote.
             </p>
             <div className="hero-actions">
               <a href="#rechner" className="btn btn-primary btn-large btn-arrow">Was bringt mir das?</a>
